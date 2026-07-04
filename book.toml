@@ -5,3 +5,5 @@ multilingual = false
 src = "src"
 title = "Abhi's guide to Indian Partnership Act, 1932"
 
+[output.html]
+site-url = "/ipa/"
