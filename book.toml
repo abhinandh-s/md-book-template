@@ -6,7 +6,6 @@ src = "src"
 title = "Abhi's guide to ..."
 
 [output.html]
-admonitions = true # > [!NOTE]
 site-url = "/md-book-template/"
 additional-css = ["extras/css/comment-box.css"]
 additional-js = ["extras/js/comment-box.js"]
