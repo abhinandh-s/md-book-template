@@ -42,6 +42,18 @@ jobs:
         uses: actions/configure-pages@v5
       - name: Build with mdBook
         run: mdbook build
+
+      - name: Build with mdBook
+        run: mdbook --init theme
+
+      - name: Commit generated files
+        uses: stefanzweifel/git-auto-commit-action@v5
+        continue-on-error: true 
+        with:
+          commit_message: "chore: compile rust to wasm [skip ci]"
+          add_options: '-f'
+          file_pattern: 'theme/' 
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
