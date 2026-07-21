@@ -152,8 +152,8 @@
 
     --sidebar-bg: #201018;
     --sidebar-fg: #c8c9db;
-    --sidebar-non-existant: #505274;
-    --sidebar-active: #2b79a2;
+    --sidebar-non-existant: #B8A0A8;
+    --sidebar-active: #F8B0B8; 
     --sidebar-spacer: #201818;
 
     --scrollbar: var(--sidebar-fg);
