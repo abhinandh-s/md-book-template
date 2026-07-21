@@ -43,8 +43,8 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
 
-      - name: Build with mdBook
-        run: mdbook init --theme
+      # - name: Generate Theme Directory
+      #   run: mdbook init --theme
 
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
