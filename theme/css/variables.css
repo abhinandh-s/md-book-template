@@ -44,12 +44,12 @@
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(0, 20%, 8%);
+    --table-border-color: hsl(0, 33%, 9%);
     --table-header-bg: hsl(353, 70%, 60%);
-    --table-alternate-bg: hsl(0, 20%, 4%);
+    --table-alternate-bg: hsl(0, 20%, 8%);
 
     --searchbar-border-color: #aaa;
-    --searchbar-bg: #aeaec6;
+    --searchbar-bg: #f8b0b8; // bubble gum pink
     --searchbar-fg: #000;
     --searchbar-shadow-color: #aaa;
     --searchresults-header-fg: #5f5f71;
