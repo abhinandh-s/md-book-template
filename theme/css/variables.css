@@ -31,7 +31,7 @@
     --icons: #737480;
     --icons-hover: #b7b9cc;
 
-    --links: #F8B0B8;
+    --links: #e05060;
 
     --inline-code-color: #c5c8c6;
 
@@ -44,9 +44,9 @@
 
     --warning-border: #ff8e00;
 
-    --table-border-color: hsl(226, 23%, 16%);
-    --table-header-bg: hsl(226, 23%, 31%);
-    --table-alternate-bg: hsl(226, 23%, 14%);
+    --table-border-color: hsl(0, 20%, 8%);
+    --table-header-bg: hsl(353, 70%, 60%);
+    --table-alternate-bg: hsl(0, 20%, 4%);
 
     --searchbar-border-color: #aaa;
     --searchbar-bg: #aeaec6;
