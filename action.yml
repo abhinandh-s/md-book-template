@@ -7,7 +7,11 @@ runs:
   using: "composite"
   steps:
     - name: Inject custom theme
-      run: cp -r ${{ github.action_path }}/theme ./theme
+      run: |
+        rm -rf ./theme
+        cp -r ${{ github.action_path }}/theme ./theme
+        rm -rf ./extras
+        cp -r ${{ github.action_path }}/extras ./extras
       shell: bash
 
     - name: Install mdBook
