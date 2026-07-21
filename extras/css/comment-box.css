@@ -57,7 +57,7 @@
 
 
 @media print {
-    .custom-comment-box .comment-status {
+    .custom-comment-box {
         display: none !important;
     }
 }
