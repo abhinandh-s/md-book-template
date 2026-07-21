@@ -64,7 +64,7 @@
     /* Same as `--sidebar-active` */
     --copy-button-filter-hover: invert(46%) sepia(20%) saturate(1537%) hue-rotate(156deg) brightness(85%) contrast(90%);
 
-    --footnote-highlight: #4079ae;
+    --footnote-highlight: #f8b0b8;
 
     --overlay-bg: rgba(33, 40, 48, 0.4);
 
