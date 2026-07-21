@@ -48,14 +48,14 @@
     --table-header-bg: hsl(353, 70%, 60%);
     --table-alternate-bg: hsl(0, 20%, 8%);
 
-    --searchbar-border-color: #aaa;
+    --searchbar-border-color: #e05060; // accent red
     --searchbar-bg: #f8b0b8; // bubble gum pink
     --searchbar-fg: #000;
     --searchbar-shadow-color: #aaa;
     --searchresults-header-fg: #5f5f71;
     --searchresults-border-color: #5c5c68;
     --searchresults-li-bg: #242430;
-    --search-mark-bg: #a2cff5;
+    --search-mark-bg: #0B0706; // --bg
 
     --color-scheme: dark;
 
