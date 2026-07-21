@@ -45,16 +45,17 @@
     --warning-border: #ff8e00;
 
     --table-border-color: hsl(0, 33%, 9%);
-    --table-header-bg: hsl(353, 70%, 60%);
+   // --table-header-bg: hsl(353, 70%, 60%);
+    --table-header-bg: hsl(353, 64%, 58%);
     --table-alternate-bg: hsl(0, 20%, 8%);
 
     --searchbar-border-color: #e05060; // accent red
     --searchbar-bg: #f8b0b8; // bubble gum pink
-    --searchbar-fg: #000;
-    --searchbar-shadow-color: #aaa;
-    --searchresults-header-fg: #5f5f71;
-    --searchresults-border-color: #5c5c68;
-    --searchresults-li-bg: #242430;
+    --searchbar-fg: #F0b030; // -- yellow
+    --searchbar-shadow-color: #e0b0b8; // sakura
+    --searchresults-header-fg: #5f5f71; // bluish grey
+    --searchresults-border-color: #5c5c68; // bluish grey dark
+    --searchresults-li-bg: #242430; // dark bluish grey darker
     --search-mark-bg: #0B0706; // --bg
 
     --color-scheme: dark;
