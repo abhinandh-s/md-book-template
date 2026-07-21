@@ -68,11 +68,11 @@
 
     --overlay-bg: rgba(33, 40, 48, 0.4);
 
-    --blockquote-note-color: #4493f8;
-    --blockquote-tip-color: #09ca09;
-    --blockquote-important-color: #ab7df8;
-    --blockquote-warning-color: #d29922;
-    --blockquote-caution-color: #f21424;
+    --blockquote-note-color: #89b4fa;
+    --blockquote-tip-color: #a6e3a1;
+    --blockquote-important-color: #cba6f7;
+    --blockquote-warning-color: #f9e2af;
+    --blockquote-caution-color: #f38ba8;
 
     --sidebar-header-border-color: #2f6ab5;
 }
