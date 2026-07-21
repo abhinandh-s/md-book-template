@@ -44,6 +44,10 @@ This is an example of a footnote[^note].
 | Header1 | Header2 |
 |---------|---------|
 | abc     | def     |
+| abc     | def     |
+| abc     | def     |
+| abc     | def     |
+| abc     | def     |
 
 
 - [x] Complete task
