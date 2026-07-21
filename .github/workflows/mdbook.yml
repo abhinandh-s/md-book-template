@@ -37,8 +37,11 @@ jobs:
       - name: Build with mdBook
         run: mdbook build
 
-      # - name: Generate Theme Directory
-      #   run: mdbook init --theme
+      - name: Delete Theme Directory
+        run: rm -rf theme
+
+      - name: Generate Theme Directory
+        run: mdbook init --theme
 
       - name: Commit generated files
         uses: stefanzweifel/git-auto-commit-action@v5
