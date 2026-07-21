@@ -54,3 +54,10 @@
   margin-left: 10px;
   font-size: 0.9em;
 }
+
+
+@media print {
+    .custom-comment-box .comment-status {
+        display: none !important;
+    }
+}
