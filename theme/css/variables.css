@@ -147,7 +147,7 @@
 }
 
 .navy {
-    --bg: hsl(226, 23%, 11%);
+    --bg: #0B0706;
     --fg: #bcbdd0;
 
     --sidebar-bg: #282d3f;
