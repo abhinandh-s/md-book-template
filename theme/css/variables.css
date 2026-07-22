@@ -49,14 +49,19 @@
     --table-header-bg: hsl(353, 64%, 58%);
     --table-alternate-bg: hsl(0, 20%, 8%);
 
-    --searchbar-border-color: #e05060; /* accent red */
-    --searchbar-bg: #f8b0b8; /* bubble gum pink */
-    --searchbar-fg: #e05060; /* --link [[no idea what this is for]] */
-    --searchbar-shadow-color: #e0b0b8; /* sakura */
-    --searchresults-header-fg: #5f5f71; /* bluish grey */
-    --searchresults-border-color: #5c5c68; /* bluish grey dark */
-    --searchresults-li-bg: #242430; /* dark bluish grey darker */
-    --search-mark-bg: #0B0706; /* --bg */
+    /* Search Bar (Dark surface with rose accent focus) */
+    --searchbar-bg: #181010;                  /* Dark surface matching the sidebar */
+    --searchbar-fg: #c8c9db;                  /* Clear, readable light text */
+    --searchbar-border-color: #201018;         /* Subtle dark border */
+    --searchbar-shadow-color: rgba(224, 80, 96, 0.25); /* Subtle crimson glow on focus */
+
+    /* Search Results Dropdown */
+    --searchresults-header-fg: #F8B0B8;       /* Soft pink header text */
+    --searchresults-border-color: #201018;     /* Subtle divider lines */
+    --searchresults-li-bg: #181010;           /* Clean dropdown list item background */
+    --search-mark-bg: #e05060;                 /* Vivid crimson highlight for matched words */
+
+   
 
     --color-scheme: dark;
 
