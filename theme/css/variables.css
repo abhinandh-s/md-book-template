@@ -65,17 +65,21 @@
     /* Same as `--sidebar-active` */
     --copy-button-filter-hover: invert(46%) sepia(20%) saturate(1537%) hue-rotate(156deg) brightness(85%) contrast(90%);
 
+    /* when clicked on a footnote, the relevant footnote will get highlighted */
     --footnote-highlight: #f8b0b8;
 
+    /* TODO: */
     --overlay-bg: rgba(33, 40, 48, 0.4);
 
+    /* blockquotes */
     --blockquote-note-color: #89b4fa;
     --blockquote-tip-color: #a6e3a1;
     --blockquote-important-color: #cba6f7;
     --blockquote-warning-color: #f9e2af;
     --blockquote-caution-color: #f38ba8;
 
-    --sidebar-header-border-color: #2f6ab5;
+    /* indentation line in side bar */
+    --sidebar-header-border-color: #e05060;
 }
 
 .rust {
