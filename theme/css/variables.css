@@ -49,7 +49,7 @@
     --table-header-bg: hsl(353, 64%, 58%);
     --table-alternate-bg: hsl(0, 20%, 8%);
 
-    --searchbar-border-color: #e05060; // accent red
+    --searchbar-border-color: #e05060; /* accent red */
     --searchbar-bg: #f8b0b8; /* bubble gum pink */
     --searchbar-fg: #e05060; /* --link [[no idea what this is for]] */
     --searchbar-shadow-color: #e0b0b8; /* sakura */
